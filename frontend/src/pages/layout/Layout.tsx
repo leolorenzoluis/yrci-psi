@@ -19,7 +19,7 @@ const Layout = () => {
   const [isDisclaimerOpen, setIsDisclaimerOpen] = useState<boolean>(false)
   const [copyClicked, setCopyClicked] = useState<boolean>(false)
   const [copyText, setCopyText] = useState<string>('Copy URL')
-  const [shareLabel, setShareLabel] = useState<string | undefined>('Share...')
+  const [shareLabel, setShareLabel] = useState<string | undefined>('Share')
   const [hideHistoryLabel, setHideHistoryLabel] = useState<string>('Hide chat history')
   const [showHistoryLabel, setShowHistoryLabel] = useState<string>('Show chat history')
   const [logo, setLogo] = useState('')
@@ -77,7 +77,7 @@ const Layout = () => {
         setHideHistoryLabel('Hide history')
         setShowHistoryLabel('Show history')
       } else {
-        setShareLabel('Share...')
+        setShareLabel('Share')
         setHideHistoryLabel('Hide chat history')
         setShowHistoryLabel('Show chat history')
       }
