@@ -44,7 +44,7 @@ class _UiSettings(BaseSettings):
     title: str = "AIR-hr.ai"
     logo: Optional[str] = "https://yrci-public-ercecudsgcgbfxdt.z01.azurefd.net/assets/psi-yrci-logo.png"
     chat_logo: Optional[str] = "https://yrci-public-ercecudsgcgbfxdt.z01.azurefd.net/assets/AIR-hr_ver3.png"
-    chat_title: str = "RIF Chatbot Assistant"
+    chat_title: str = ""
     chat_description: str = "Get expert guidance on retirement, buyout, and reduction in force (RIF) options"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
