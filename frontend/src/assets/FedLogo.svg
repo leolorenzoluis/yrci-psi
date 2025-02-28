@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="navyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#041E42" />
+      <stop offset="100%" stop-color="#081736" />
+    </linearGradient>
+
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D6AF36" />
+      <stop offset="100%" stop-color="#B38728" />
+    </linearGradient>
+
+    <pattern id="gridPattern" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="none" />
+      <path d="M 8 0 L 0 0 0 8" fill="none" stroke="#205493" stroke-width="0.5" opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <!-- Main circular emblem background -->
+  <circle cx="150" cy="150" r="125" fill="url(#navyGradient)" stroke="#B31942" stroke-width="4" />
+
+  <!-- Decorative ring -->
+  <circle cx="150" cy="150" r="118" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.6" />
+  <circle cx="150" cy="150" r="115" fill="none" stroke="#D6AF36" stroke-width="1.5" />
+
+  <!-- Inner circle with grid pattern -->
+  <circle cx="150" cy="150" r="105" fill="url(#gridPattern)" stroke="#FFFFFF" stroke-width="1"
+    opacity="0.8" />
+
+  <!-- Eagle silhouette (simplified) -->
+  <path
+    d="M150,70 c-5,0 -30,20 -30,30 c0,7 5,10 10,10 c-15,5 -25,15 -25,25 c0,10 10,15 20,15 c-10,0 -35,10 -35,25 c0,15 35,35 60,35 c25,0 60,-20 60,-35 c0,-15 -25,-25 -35,-25 c10,0 20,-5 20,-15 c0,-10 -10,-20 -25,-25 c5,0 10,-3 10,-10 c0,-10 -25,-30 -30,-30"
+    fill="#FFFFFF" opacity="0.15" stroke="#D6AF36" stroke-width="1.5" />
+
+  <!-- Shield shape with stronger federal look -->
+  <path d="M150 75 L95 105 V160 C95 215 150 245 150 245 C150 245 205 215 205 160 V105 Z"
+    fill="#041E42" stroke="url(#goldGradient)" stroke-width="3" />
+
+  <!-- Accurate American flag -->
+  <g transform="translate(115,105) scale(0.7)">
+    <!-- Stripes - 13 alternating red and white -->
+    <rect x="0" y="0" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="5.38" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="10.76" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="16.14" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="21.52" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="26.9" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="32.28" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="37.66" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="43.04" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="48.42" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="53.8" width="100" height="5.38" fill="#B31942" /> <!-- Red -->
+    <rect x="0" y="59.18" width="100" height="5.38" fill="#FFFFFF" /> <!-- White -->
+    <rect x="0" y="64.56" width="100" height="5.44" fill="#B31942" /> <!-- Red -->
+
+    <!-- Blue canton -->
+    <rect x="0" y="0" width="40" height="38" fill="#041E42" />
+
+    <!-- 50 stars - all explicitly shown -->
+    <g fill="#FFFFFF">
+      <!-- Row 1 - 6 stars -->
+      <circle cx="3.3" cy="3.2" r="1.5" />
+      <circle cx="9.9" cy="3.2" r="1.5" />
+      <circle cx="16.5" cy="3.2" r="1.5" />
+      <circle cx="23.1" cy="3.2" r="1.5" />
+      <circle cx="29.7" cy="3.2" r="1.5" />
+      <circle cx="36.3" cy="3.2" r="1.5" />
+
+      <!-- Row 2 - 5 stars -->
+      <circle cx="6.6" cy="7.6" r="1.5" />
+      <circle cx="13.2" cy="7.6" r="1.5" />
+      <circle cx="19.8" cy="7.6" r="1.5" />
+      <circle cx="26.4" cy="7.6" r="1.5" />
+      <circle cx="33" cy="7.6" r="1.5" />
+
+      <!-- Row 3 - 6 stars -->
+      <circle cx="3.3" cy="12" r="1.5" />
+      <circle cx="9.9" cy="12" r="1.5" />
+      <circle cx="16.5" cy="12" r="1.5" />
+      <circle cx="23.1" cy="12" r="1.5" />
+      <circle cx="29.7" cy="12" r="1.5" />
+      <circle cx="36.3" cy="12" r="1.5" />
+
+      <!-- Row 4 - 5 stars -->
+      <circle cx="6.6" cy="16.4" r="1.5" />
+      <circle cx="13.2" cy="16.4" r="1.5" />
+      <circle cx="19.8" cy="16.4" r="1.5" />
+      <circle cx="26.4" cy="16.4" r="1.5" />
+      <circle cx="33" cy="16.4" r="1.5" />
+
+      <!-- Row 5 - 6 stars -->
+      <circle cx="3.3" cy="20.8" r="1.5" />
+      <circle cx="9.9" cy="20.8" r="1.5" />
+      <circle cx="16.5" cy="20.8" r="1.5" />
+      <circle cx="23.1" cy="20.8" r="1.5" />
+      <circle cx="29.7" cy="20.8" r="1.5" />
+      <circle cx="36.3" cy="20.8" r="1.5" />
+
+      <!-- Row 6 - 5 stars -->
+      <circle cx="6.6" cy="25.2" r="1.5" />
+      <circle cx="13.2" cy="25.2" r="1.5" />
+      <circle cx="19.8" cy="25.2" r="1.5" />
+      <circle cx="26.4" cy="25.2" r="1.5" />
+      <circle cx="33" cy="25.2" r="1.5" />
+
+      <!-- Row 7 - 6 stars -->
+      <circle cx="3.3" cy="29.6" r="1.5" />
+      <circle cx="9.9" cy="29.6" r="1.5" />
+      <circle cx="16.5" cy="29.6" r="1.5" />
+      <circle cx="23.1" cy="29.6" r="1.5" />
+      <circle cx="29.7" cy="29.6" r="1.5" />
+      <circle cx="36.3" cy="29.6" r="1.5" />
+
+      <!-- Row 8 - 5 stars -->
+      <circle cx="6.6" cy="34" r="1.5" />
+      <circle cx="13.2" cy="34" r="1.5" />
+      <circle cx="19.8" cy="34" r="1.5" />
+      <circle cx="26.4" cy="34" r="1.5" />
+      <circle cx="33" cy="34" r="1.5" />
+    </g>
+  </g>
+
+  <!-- Digital circuit elements overlaid on shield -->
+  <path d="M125 185 H175 M150 165 V205" stroke="#3366CC" stroke-width="1.5" opacity="0.8" />
+  <path d="M125 185 H110 V200 H125" stroke="#3366CC" stroke-width="1.5" opacity="0.8" />
+  <path d="M175 185 H190 V200 H175" stroke="#3366CC" stroke-width="1.5" opacity="0.8" />
+
+  <!-- Digital nodes -->
+  <circle cx="125" cy="185" r="3" fill="#D6AF36" />
+  <circle cx="175" cy="185" r="3" fill="#D6AF36" />
+  <circle cx="150" cy="205" r="3" fill="#D6AF36" />
+
+  <!-- Top curved text - unchanged -->
+  <path id="topArc" d="M 35,130 A 120,120 0 0,1 265,130" fill="none" />
+  <text>
+    <textPath xlink:href="#topArc" startOffset="50%" text-anchor="middle">
+      <tspan font-family="'Arial Black', Helvetica, sans-serif" font-size="16" font-weight="900"
+        fill="#FFFFFF" letter-spacing="1">FEDERAL EMPLOYEES</tspan>
+    </textPath>
+  </text>
+
+  <!-- Bottom curved text - lowered and fixed -->
+  <path id="bottomArc" d="M 35,180 A 120,120 0 0,0 265,180" fill="none" />
+  <text>
+    <textPath xlink:href="#bottomArc" startOffset="50%" text-anchor="middle">
+      <tspan font-family="'Arial Black', Helvetica, sans-serif" font-size="16" font-weight="900"
+        fill="#FFFFFF" letter-spacing="1">DIGITAL ASSISTANT</tspan>
+    </textPath>
+  </text>
+
+  <!-- Official star -->
+  <path d="M150 55 L153 62 L161 62 L154 66 L157 73 L150 69 L143 73 L146 66 L139 62 L147 62 Z"
+    fill="url(#goldGradient)" stroke="#FFFFFF" stroke-width="0.5" />
+</svg>
